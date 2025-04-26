@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu (Vintage Foods)</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    .page-wrapper {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .hero {
+      background-image: url('bg.png');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 80px 20px;
+      flex: 0 0 auto;
+    }
+
+    .hero h1 {
+      font-size: 2.5em;
+      margin: 0;
+    }
+
+    .menu-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      padding: 20px;
+      flex: 1 1 auto;
+      overflow: hidden;
+    }
+
+    .menu-item {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      width: 220px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      flex-shrink: 1;
+    }
+
+    .menu-item img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+    }
+
+    .menu-item h3 {
+      margin: 10px 0 5px;
+      font-size: 16px;
+    }
+
+    .menu-item .price {
+      font-size: 16px;
+      font-weight: bold;
+      color: #ff5722;
+      margin: 5px 0 10px;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+      flex: 0 0 auto;
+    }
+
+    footer a {
+      color: #ffda79;
+      text-decoration: none;
+    }
+
+    footer .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 10px 0;
+    }
+
+    footer .footer-links div {
+      text-align: left;
+    }
+
+    footer .footer-links h4 {
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #ffda79;
+    }
+  </style>
+</head>
+<body>
+  <div class="page-wrapper">
+    <header class="hero">
+      <h1>Menu</h1>
+    </header>
+
+    <div class="menu-container">
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133903.png" alt="Dosa">
+        <h3>Dosa</h3>
+        <div class="price">Rs.40</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133648.png" alt="Puttu">
+        <h3>Puttu</h3>
+        <div class="price">Rs.50</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133621.png" alt="Kali">
+        <h3>Kali</h3>
+        <div class="price">Rs.60</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133552.png" alt="Pongal">
+        <h3>Pongal</h3>
+        <div class="price">Rs.50</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133522.png" alt="Poori">
+        <h3>Poori</h3>
+        <div class="price">Rs.40</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133504.png" alt="Meals">
+        <h3>Meals</h3>
+        <div class="price">Rs.120</div>
+      </div>
+      <div class="menu-item">
+        <img src="Screenshot 2025-04-25 133445.png" alt="Idly">
+        <h3>Idly</h3>
+        <div class="price">Rs.30</div>
+      </div>
+    </div>
+
+    <footer>
+        <div class="footer-links">
+            <div>
+                <h4>Contact Us</h4>
+                <p>123 Little India Road, #07-20, Central, Singapore 890653</p>
+                <p>contact@vintagefoods.sg | +65 0865 8643</p>
+            </div>
+            <div>
+                <h4>Our Links</h4>
+                <p>About Us | FAQ | Team | Testimonial</p>
+            </div>
+            <div>
+                <h4>Our Services</h4>
+                <p>Table Service | Quick Delivery | Fresh Food</p>
+            </div>
+        </div>
+        <p>Designed and Developed by Kiruthiga.B</p>
+    </footer>
+</body>
+</html>
+
